@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
 
 </head>
 <body>
@@ -21,17 +23,60 @@
     <ul class="nav-links">
       <li><a href="#" class="active">Home</a></li>
       <li><a href="#">Courses</a></li>
-      <li class="dropdown"><a href="#">Explore ▾</a>
-    <ul class="dropdown-menu">
-        <li><a href="#">Explore 1</a></li>
-        <li><a href="#">Explore 2</a></li>
-        <li><a href="#">Explore 3</a></li>
-    </ul></li>
+
+      <li class="dropdown">
+        <a href="#">Explore ▾</a>
+         <ul class="dropdown-menu">
+          <li>
+            <a href="#">
+              <div class="item-title">
+                DevChallenge <span class="tag popular">Popular</span>
+              </div>
+              <p class="description">
+                Complete your challenges and upscale your skills
+              </p>
+            </a>
+          </li>  
+          <li>
+            <a href="#">
+              <div class="item-title">
+                Fruitbox Flex <span class="tag popular purple">Popular</span>
+              </div>
+              <p class="description">
+                A fun and interactive way to sharpen your Flexbox CSS skills.
+              </p>
+            </a>
+          </li>
+          <li>
+      <a href="#">
+        <div class="item-title">
+          Quick Compiler <span class="tag beta">Beta</span>
+        </div>
+        <p class="description">Write and run code in multiple languages from anywhere.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="item-title">
+          Core Subjects <span class="tag new">New</span>
+        </div>
+        <p class="description">Demystify CS topics with our easy-to-understand guides.</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="item-title">
+          Mock Tests <span class="tag new">New</span>
+        </div>
+        <p class="description">Prepare for success with our Interview Kit.</p>
+      </a>
+    </li>    
+    </ul>
+  </li>
       <li><a href="#">Contact</a></li>
       <li><a href="#">Articles</a></li>
       <li><a href="#">Tutorials</a></li>
     </ul>
-
     <div class="right-section">
       <button class="dashboard-btn">
         Login
@@ -163,6 +208,20 @@
     <a href="https://www.linkedin.com/in/love-babbar-38ab2887/" class="social">Followers on Linkedin</a>
   </div>
 </div>
+
+<div class="icon-circle">
+       <i class="fas fa-rocket"></i>
+    </div>
+<div class="learning-container">
+  <div class="left-learning-container">
+    
+
+  </div>
+
+  <div class="right-learning-container">
+
+  </div>
+</div>
 </main>
 
 
@@ -182,6 +241,6 @@
   container.addEventListener('mouseleave', () => {
     container.style.transform = `rotateX(0deg) rotateY(0deg)`;
   });
-    </script>
+</script>
 </body>
 </html>
